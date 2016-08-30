@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Run as frequent as you like. Please keep in mind it runs after hours as well. 
+
 # Add code into stockList.txt
 # NASDAQ:AAPL
 # ASX:BHP
