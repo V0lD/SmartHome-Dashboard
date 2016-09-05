@@ -1,6 +1,6 @@
 # SmartHome-Dashboard
 
-##### Satellite Images
+### Satellite Images
 Files: loopImages.php, bin/deleteOldImages.sh, bin/downloadImages.sh
 
 When loopImages.php runs, it looks like... (The following GIF is scaled down and compressed.)
