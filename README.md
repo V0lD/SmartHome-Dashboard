@@ -34,9 +34,19 @@ Also Requires: Lifx Light Bulb
 
 
 ### Temperature & Humidity
-Files: tempHumidity.html, TBD
+Files(Yoctopuce): tempHumidity.html, TBD
 
 Also Requires: Yoctopuce Meteo (Yocto-Meteo) USB Sensors
 
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/CurrentTempHumidity.png)
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/TempHumidity.png)
+
+
+### Mikrotik WiFi Password
+Files(Mikrotik): wifiPassword.php
+
+Also Requires: Mikrotik Router/AP
+
+The php script can display and update WiFi password every 30 days.
+
+28825252
