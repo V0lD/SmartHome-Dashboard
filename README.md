@@ -34,11 +34,14 @@ Also Requires: Lifx Light Bulb
 
 
 ### Temperature & Humidity
-Files(Yoctopuce): tempHumidity.html, TBD
+Files(Yoctopuce): VirtualHub
 
 Also Requires: Yoctopuce Meteo (Yocto-Meteo) USB Sensors
 
+More Files(Yoctopuce): yocto_api.js, yocto_humidity.js, yocto_temperature.js, tempHumidity.html
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/CurrentTempHumidity.png)
+
+More Files(Yoctopuce): yocto_api.php, yocto_humidity.php, yocto_temperature.php, insertValues.php, plotTH.py
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/TempHumidity.png)
 
 
