@@ -14,5 +14,4 @@ The original image looks like...
 Files(GeekTool-Scripts): time.sh, lastMonth.sh, month.sh, nextMonth.sh
 
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/Time.png)
-
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/Date.png)
