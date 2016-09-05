@@ -34,7 +34,7 @@ Also Requires: Lifx Light Bulb
 
 
 ### Temperature & Humidity
-Files: TBD
+Files: tempHumidity.html, TBD
 
 Also Requires: Yoctopuce Meteo (Yocto-Meteo) USB Sensors
 
