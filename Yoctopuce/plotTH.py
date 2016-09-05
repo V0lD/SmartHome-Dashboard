@@ -1,4 +1,14 @@
 # -*- coding: utf-8 -*-
+
+# Run the following command to install plotly for python
+# sudo pip install plotly
+# Run the following command to install mysqldb for python
+# sudo apt-get install python-mysqldb
+# Run the following command to import timezones into mysql
+# sudo mysql_tzinfo_to_sql /usr/share/zoneinfo/ | mysql -u root mysql -p
+
+
+
 import plotly
 from plotly.graph_objs import Scatter, Layout, Figure
 import MySQLdb
