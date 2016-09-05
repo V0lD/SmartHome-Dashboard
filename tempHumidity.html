@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+ <TITLE>Hello World</TITLE>
+ <SCRIPT type="text/javascript" src="yocto_api.js"></SCRIPT>
+ <SCRIPT type="text/javascript" src="yocto_humidity.js"></SCRIPT>
+ <SCRIPT type="text/javascript" src="yocto_temperature.js"></SCRIPT>
+ <SCRIPT language='javascript1.5' type='text/JavaScript'>
+ <!--
+
+ // Setup the API to use the VirtualHub on local machine
+ if(yRegisterHub(location.protocol+'//'+location.hostname+':4444/') != YAPI_SUCCESS) {
+     alert("Cannot contact VirtualHub on 127.0.0.1");
+ }
+
+ var serial;
+ function refresh()
+ {
+     var temp, hum;
+
+     if(!serial) {
+         // or use any conected module suitable for the demo
+         temp = yFirstTemperature();
+         if(temp) {
+             serial = temp.module().get_serialNumber();
+         }
+     }
+
+     temp  = yFindTemperature(serial+".temperature");
+     hum   = yFindHumidity(serial+".humidity");
+     if (temp.isOnline()) {
+         document.getElementById("temp-val").textContent = temp.get_currentValue();
+         document.getElementById("hum-val").textContent = hum.get_currentValue();
+     }
+     setTimeout('refresh()',500);
+ }
+ -->
+ </SCRIPT>
+</HEAD>
+<BODY onload='refresh();'>
+<div style="color:grey">
+
+T: <span id="temp-val"></span> &deg;C <br>
+H: <span id="hum-val"></span> %RH <br>
+
+</div>
+</BODY>
+</HTML>
