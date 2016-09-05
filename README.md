@@ -27,6 +27,7 @@ Files(GeekTool-Scripts): stock.sh
 
 ### Lifx Light Bulb Status
 Files(GeekTool-Scripts): LifxStatus.sh, LightOn.png, LightOff.png, YourFloorPlan.png
+
 Also Requires: Lifx Light Bulb
 
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/LifxStatus.png)
@@ -34,6 +35,7 @@ Also Requires: Lifx Light Bulb
 
 ### Temperature & Humidity
 Files: TBD
+
 Also Requires: Yoctopuce Meteo (Yocto-Meteo) USB Sensors
 
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/CurrentTempHumidity.png)
