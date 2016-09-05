@@ -1,5 +1,7 @@
 # SmartHome-Dashboard
 
+## Minimum Requirements: Mac & GeekTool app
+
 ### Satellite Images
 Files: loopImages.php, bin/deleteOldImages.sh, bin/downloadImages.sh
 
@@ -21,3 +23,18 @@ Files(GeekTool-Scripts): time.sh, lastMonth.sh, month.sh, nextMonth.sh
 Files(GeekTool-Scripts): stock.sh
 
 ![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/Stock.png)
+
+
+### Lifx Light Bulb Status
+Files(GeekTool-Scripts): LifxStatus.sh, LightOn.png, LightOff.png, YourFloorPlan.png
+Also Requires: Lifx Light Bulb
+
+![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/LifxStatus.png)
+
+
+### Temperature & Humidity
+Files: TBD
+Also Requires: Yoctopuce Meteo (Yocto-Meteo) USB Sensors
+
+![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/CurrentTempHumidity.png)
+![Alt Text](https://github.com/V0lD/SmartHome-Dashboard/raw/master/images/TempHumidity.png)
